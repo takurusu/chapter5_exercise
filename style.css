@@ -5,27 +5,30 @@
 }
 
 .headline {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  width: 100%;
+  padding: 20px 0;
   text-align: center;
 }
 
-.nav {
+.list {
   text-align: center;
+  padding: 15px 0;
+  margin: 0 auto;
+  border-bottom: 1px solid #848282;
+  border-top: 1px solid #848282;
 }
 
 .list-item {
   list-style: none;
   display: inline-block;
-  margin: 15px 20px;
-  padding-bottom: 50px;
+  margin: 0 20px;
 }
 
-.main1 {
+.main {
   width: 800px;
-  margin: 0 auto;
+  margin: 50px auto;
   display: flex;
-  justify-conetent: center;
+  flex-wrap: wrap;
 }
 
 .content1 {
@@ -117,6 +120,11 @@
 footer {
   width: 100%;
   height: 120px;
-  padding-top: 50px;
   text-align: center;
+  line-height: 120px;
+  background-color: #848282;
+}
+
+.footer-text {
+  color: #fff;
 }
